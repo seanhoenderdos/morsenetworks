@@ -1,4 +1,5 @@
 import { ScrollParallax } from 'react-just-parallax';
+import businessLady from '../assets/hero/business-lady.png';
 import { PrimaryTriangle, SecondaryTriangle } from '../assets/svg/Triangles';
 import { FirstParalaxCard, SecondParalaxCard } from '../constants';
 import Button from './Button';
@@ -62,7 +63,7 @@ const Hero = ({ onCheckEligibility }) => {
       <div className="w-full min-lg:w-[400px] z-10">
         {/* Business lady hero image */}
         <img
-          src="/src/assets/hero/business-lady.png"
+          src={businessLady}
           alt="A business lady"
           className="object-cover mx-auto"
         />
